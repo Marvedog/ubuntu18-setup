@@ -21,6 +21,7 @@ sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt update
 sudo apt install -y \
 	yarn \
+	adb \
 	nodejs \
 	google-chrome-stable \
 	spotify-client \

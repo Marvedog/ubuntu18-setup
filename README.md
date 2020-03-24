@@ -15,6 +15,7 @@ Setup script for installing dev packages I use on Ubuntu 18.04
 * Npm 
 * yarn
 * React native
+* adb 
 
 ## Dev
 * Docker
