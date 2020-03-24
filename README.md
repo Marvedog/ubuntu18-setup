@@ -28,3 +28,11 @@ Go to [android studio dowload](https://developer.android.com/studio/index.html) 
 cd ~/android-studio/bin
 ./studio.sh
 ```
+
+Update local Android env (.bashrc)
+
+```shell
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+``
