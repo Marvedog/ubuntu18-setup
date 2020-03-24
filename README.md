@@ -14,3 +14,13 @@ Setup script for installing dev packages I use on Ubuntu 18.04
 * Node
 * Npm
 * yarn
+* React native
+
+## Android setup
+
+Go to [android studio dowload](https://developer.android.com/studio/index.html) and download android studio. Extract and enter Android studio folder
+
+```shell
+cd ~/android-studio/bin
+./studio.sh
+```

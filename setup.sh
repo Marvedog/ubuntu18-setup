@@ -15,6 +15,17 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 # Node
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
+# JDK
+sudo add-apt-repository ppa:openjdk-r/ppa
 
 sudo apt update
-sudo apt install -y yarn nodejs google-chrome-stable spotify-client
+sudo apt install -y \
+	yarn \
+	nodejs \
+	google-chrome-stable \
+	spotify-client \
+	openjdk-8-jdk
+
+
+# Install react native
+sudo npm install -g react-native-cli
