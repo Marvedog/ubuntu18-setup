@@ -24,7 +24,17 @@ sudo apt install -y \
 	nodejs \
 	google-chrome-stable \
 	spotify-client \
-	openjdk-8-jdk
+	openjdk-8-jdk \
+	apt-transport-https \
+	ca-certificates \
+	software-properties-common
+
+# Docker
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+sudo apt update
+apt-cache policy docker-ce
+sudo apt install docker-ce
 
 
 # Install react native

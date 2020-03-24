@@ -11,10 +11,13 @@ Setup script for installing dev packages I use on Ubuntu 18.04
 
 ## App dev
 
-* Node
-* Npm
+* Node (-v 12.x)
+* Npm 
 * yarn
 * React native
+
+## Dev
+* Docker
 
 ## Android setup
 
