@@ -29,7 +29,7 @@ cd ~/android-studio/bin
 ./studio.sh
 ```
 
-Update local Android env (.bashrc)
+Update local Android env (.bashrc), see pt. 5 [link](https://medium.com/@dhamkur/how-to-install-react-native-on-ubuntu-18-04-2-amd-ryzen-processor-dd61ee28e7fa)
 
 ```shell
 export ANDROID_HOME=$HOME/Android/Sdk
