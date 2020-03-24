@@ -37,6 +37,9 @@ sudo apt update
 apt-cache policy docker-ce
 sudo apt install docker-ce
 
+# Slack
+wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb
+sudo apt install -y ./slack-desktop-*.deb
 
 # Install react native
 sudo npm install -g react-native-cli
