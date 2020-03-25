@@ -19,6 +19,7 @@ Setup script for installing dev packages I use on Ubuntu 18.04
 
 ## Dev
 * Docker
+* Docker compose
 
 ## Android setup
 

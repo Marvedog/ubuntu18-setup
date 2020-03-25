@@ -28,14 +28,17 @@ sudo apt install -y \
 	openjdk-8-jdk \
 	apt-transport-https \
 	ca-certificates \
-	software-properties-common
+	software-properties-common \
+	gnome-tweaks
 
 # Docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 sudo apt update
 apt-cache policy docker-ce
-sudo apt install docker-ce
+sudo apt install -y \
+	docker-ce \
+	docker-compose
 
 # Slack
 wget https://downloads.slack-edge.com/linux_releases/slack-desktop-4.0.2-amd64.deb
