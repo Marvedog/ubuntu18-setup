@@ -41,6 +41,12 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ``
 
+Update python path for pipenv to work [link](https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv)
+
+```shell
+PYTHON_BIN_PATH="$(python3 -m site --user-base)/bin"
+PATH="$PATH:$PYTHON_BIN_PATH"
+```
 
 ## Collab.
 
