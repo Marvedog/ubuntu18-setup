@@ -2,6 +2,8 @@
 
 Setup script for installing dev packages I use on Ubuntu 18.04
 
+**Use at your own risk**
+
 ## Utils
 
 * Curl
