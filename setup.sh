@@ -47,3 +47,6 @@ sudo apt install -y ./slack-desktop-*.deb
 
 # Install react native
 sudo npm install -g react-native-cli
+
+# Python packages
+pip3 install -r requirements.txt 
