@@ -32,7 +32,8 @@ sudo apt install -y \
 	gnome-tweaks \
 	python3-pip \
 	postgresql \
-	postgresql-contrib
+	postgresql-contrib \
+	libpq-dev
 
 # Docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -52,3 +53,4 @@ sudo npm install -g react-native-cli
 
 # Python packages
 pip3 install -r requirements.txt 
+pip3 install psycopg2
