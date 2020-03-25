@@ -30,7 +30,9 @@ sudo apt install -y \
 	ca-certificates \
 	software-properties-common \
 	gnome-tweaks \
-	python3-pip
+	python3-pip \
+	postgresql \
+	postgresql-contrib
 
 # Docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -

@@ -22,6 +22,7 @@ Setup script for installing dev packages I use on Ubuntu 18.04
 ## Dev
 * Docker
 * Docker compose
+* Postgres
 * Pip3 
 
 ## Android setup
