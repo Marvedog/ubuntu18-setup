@@ -29,7 +29,8 @@ sudo apt install -y \
 	apt-transport-https \
 	ca-certificates \
 	software-properties-common \
-	gnome-tweaks
+	gnome-tweaks \
+	python3-pip
 
 # Docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
